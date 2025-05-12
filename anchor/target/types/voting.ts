@@ -52,6 +52,18 @@ export type Voting = {
         {
           "name": "pollId",
           "type": "u64"
+        },
+        {
+          "name": "pollDescription",
+          "type": "string"
+        },
+        {
+          "name": "pollStart",
+          "type": "u64"
+        },
+        {
+          "name": "pollEnd",
+          "type": "u64"
         }
       ]
     }
