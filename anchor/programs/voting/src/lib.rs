@@ -21,6 +21,7 @@ pub mod voting {
         poll.poll_start = poll_start;
         poll.poll_end = poll_end;
         poll.candidate_amount = 0;
+
         msg!("Poll initialized with ID: {}", poll_id);
         msg!("Poll description: {}", poll.description);
         msg!("Poll start time: {}", poll.poll_start);
@@ -28,6 +29,7 @@ pub mod voting {
         msg!("Candidate amount: {}", poll.candidate_amount);
         msg!("Poll account created with address: {}", poll.key());
         msg!("Poll account initialized successfully.");
+        
         Ok(())
     }
 }
